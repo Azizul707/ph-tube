@@ -81,8 +81,11 @@ const displayCard = async (id) =>{
     });
 }
 
+const filerBtn = document.getElementById('filter-btn');
+
 
 
 
 getData();
 displayCard(1000);
+

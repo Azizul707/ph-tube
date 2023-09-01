@@ -29,6 +29,47 @@
                        </div>
             </div>
     </header>
+    <main>
+            <section class="max-w-screen-md mx-auto px-10">
+                    <article class="mt-8">
+                       <h2 class="text-center text-2xl font-semibold">Discuss the scope of var, let, and const</h2>
+                        <h4 class="font-semibold text-xl">1. Var</h4>
+                        <u class="font-semibold">Function Scope:</u><br><p> Variables declared with `var` are function-scoped. This means they are accessible throughout the entire function in which they are declared, regardless of block-level scope.</p><br>
+            
+                        <u class="font-semibold">Hoisting:</u><br><p> Variables declared with `var` are hoisted to the top of their containing function or global scope. This means you can use a `var` variable before it's declared, but it will have an initial value of `undefined</p><br>
+
+                        <u class="font-semibold">Re-declaration:</u><br><p> You can re-declare a `var` variable within the same scope, which can lead to unexpected behavior.</p><br>
+
+                        <u class="font-semibold">Global Scope:</u><br><p>  If declared outside of a function, a `var` variable becomes a property of the global object (usually `window` in browsers).</p><br>
+                    
+                        <h4 class="font-semibold text-xl">2. Let</h4>
+                        <u class="font-semibold">Block Scope:</u><br><p>  Variables declared with `let` are block-scoped. They are only accessible within the block in which they are defined (e.g., inside a loop, conditional statement, or function).</p><br>
+
+                        <u class="font-semibold">No Hoisting:</u><br><p> Unlike `var`, `let` variables are not hoisted, so you cannot use them before declaring them.</p><br>
+
+                        <u class="font-semibold">No Re-declaration:</u><br><p> You cannot re-declare a `let` variable within the same scope, which helps prevent accidental variable name collisions.</p><br>
+                        
+                        
+                        <h4 class="font-semibold text-xl">3. Const</h4>
+                        <u class="font-semibold">Block Scope:</u><br><p> Like `let`, variables declared with `const` are block-scoped.</p><br>
+
+                        <u class="font-semibold">No Hoisting:</u><br><p> const` variables are not hoisted, so you must declare and initialize them before using.</p><br>
+
+                        <u class="font-semibold">Immutable:</u><br><p>const` variables cannot be reassigned after they are initialized. However, for objects and arrays declared as `const`, their properties or elements can still be modified.</p><br>
+
+                        <u class="font-semibold">Final Word:</u><br><p>  In modern JavaScript development, it's recommended to use `let` and `const` over `var` due to their more predictable scoping behavior and to avoid common issues associated with `var`, such as variable hoisting and re-declaration. Use `const` for variables that should not be re-assigned and `let` for variables that may change their value.</p><br>
+
+
+                          
+                        
+                       
+                 
+                           
+                          
+                      
+                    </article>
+            </section>
+    </main>
    
     
 
