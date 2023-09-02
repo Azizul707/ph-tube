@@ -32,7 +32,7 @@
     <main>
             <section class="max-w-screen-md mx-auto px-10">
                     <article class="mt-8">
-                       <h2 class="text-center text-2xl font-semibold">Discuss the scope of var, let, and const</h2>
+                       <h2 class="text-center text-2xl font-semibold capitalize">Discuss the scope of var, let, and const</h2>
                         <h4 class="font-semibold text-xl">1. Var</h4>
                         <u class="font-semibold">Function Scope:</u><br><p> Variables declared with `var` are function-scoped. This means they are accessible throughout the entire function in which they are declared, regardless of block-level scope.</p><br>
             
@@ -57,16 +57,47 @@
 
                         <u class="font-semibold">Immutable:</u><br><p>const` variables cannot be reassigned after they are initialized. However, for objects and arrays declared as `const`, their properties or elements can still be modified.</p><br>
 
-                        <u class="font-semibold">Final Word:</u><br><p>  In modern JavaScript development, it's recommended to use `let` and `const` over `var` due to their more predictable scoping behavior and to avoid common issues associated with `var`, such as variable hoisting and re-declaration. Use `const` for variables that should not be re-assigned and `let` for variables that may change their value.</p><br>
+                        <u class="font-semibold">Final Word:</u><br><p>  In modern JavaScript development, it's recommended to use `let` and `const` over `var` due to their more predictable scoping behavior and to avoid common issues associated with `var`, such as variable hoisting and re-declaration. Use `const` for variables that should not be re-assigned and `let` for variables that may change their value.</p><br><br>
+                    </article class="mt-8">
+                    <h2 class="text-center text-2xl font-semibold capitalize">Use cases of null and undefined</h2><br><br>
+                    <h4 class="font-semibold text-xl">1. Undefined</h4>
+                    <u class="font-semibold"></u><br><p> Undefined is a primitive data type in JavaScript (and some other programming languages) that represents the absence of a value or the absence of a variable. It typically occurs in the following situations:</p><br>
 
+                    <u class="font-semibold">Variable Declaration:</u><br><p> When you declare a variable without initializing it, it is automatically assigned the value `undefined`.</p><br>
 
-                          
-                        
-                       
-                 
-                           
-                          
-                      
+                    <u class="font-semibold">Function Parameters:</u><br><p>If a function is called with fewer arguments than declared parameters, the missing parameters are set to `undefined`.</p><br>
+
+                    <u class="font-semibold">Missing Object Properties:</u><br><p>When you try to access an object property that doesn't exist, it returns `undefined`..</p><br>
+
+                    <u class="font-semibold">Return Value:</u><br><p>If a function doesn't explicitly return a value, it returns `undefined`.
+                </p><br>
+                
+                <u class="font-semibold">Return Value:</u><br><p>If a function doesn't explicitly return a value, it returns `undefined`.
+                </p><br>
+
+                <u class="font-semibold">Final thought</u><br><p>Undefined is often used as a default or initial state when you want to indicate that a variable or property has not been set or a value is missing.
+                </p><br>
+
+                <h4 class="font-semibold text-xl">2. Null</h4>
+                        <u class="font-semibold"></u><br><p>Null is another primitive data type in many programming languages, including JavaScript. It is explicitly set to represent the absence of any object value or no value. It is often used in situations where you want to signify that a variable or object property should have no value or is intentionally empty. It is typically assigned by the programmer.</p><br>
+
+                        <u class="font-semibold">Initializing Variables:</u><br><p>You might set a variable to `null` initially and later assign it a different value when needed.
+                        </p><br>
+
+                        <u class="font-semibold">Clearing Object Properties:</u><br><p>You can set an object property to `null` to indicate that it has no value.
+                        </p><br>
+
+                        <u class="font-semibold">Error Handling:</u><br><p>In some cases, when an operation or request fails, you might set a variable to `null` to indicate that no valid result was obtained.
+                        </p><br>
+
+                        <u class="font-semibold">Final Words:</u><br><p>In summary, "undefined" is typically used to indicate the absence of a value or variable, often as a default state, while "null" is used to explicitly represent the absence of any object value and is often set by the programmer to indicate intentional emptiness or a lack of value. The specific use cases may vary depending on the programming language and the design of your code.
+                        </p><br>
+                    </article>
+                    <article class="mt-8">
+                        <h2 class="text-center text-2xl font-semibold capitalize">What do you mean by REST API?
+                        </h2>
+                        <h4 class="font-semibold text-xl">REST API</h4>
+                        <u class="font-semibold"></u><br><p>A REST API (Representational State Transfer Application Programming Interface) is a set of rules and principles for building web services. It uses standard HTTP methods (like GET, POST, PUT, DELETE) and URLs to allow different software applications to communicate with each other over the internet. REST APIs are known for their simplicity, scalability, and statelessness, making them widely used for web and mobile app development.</p><br>
                     </article>
             </section>
     </main>
