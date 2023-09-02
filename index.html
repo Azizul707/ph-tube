@@ -25,7 +25,7 @@
           <img src="./image/Logo.png" alt="" />
         </div>
         <div class="">
-          <button id="filter-btn" class="bg-gray-200 py-2 px-3 rounded-lg">
+          <button onclick="filterBtn()" class="bg-gray-200 py-2 px-3 rounded-lg">
             Short By View
           </button>
         </div>
@@ -47,6 +47,14 @@
     </nav>
     <!-- main section start -->
     <main>
+        <section>
+            <div class="w-full h-screen mx-auto hidden" id="empty-div">
+              <div class=" w-96 mx-auto mt-52">
+                <div class=""><img class="ml-28" src="./image/Icon.png" alt=""></div>
+                <div class=""><p class="text-2xl font-bold text-center">Oops!! Sorry, There is no <br> content here</p></div>
+              </div>
+            </div>
+        </section>
       <section>
         <div
           id="card-container"
